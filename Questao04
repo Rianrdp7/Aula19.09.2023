@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Questao04 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+        
+         int numero;
+    
+        System.out.println("Informe o nÃºmero: ");
+        numero = scanner.nextInt();
+        
+        System.out.println("O sucessor desse nÃºmero Ã©: " + (numero + 1));
+        System.out.println("O antecessor desse nÃºmero Ã©: " + (numero - 1));
+    }
+}
