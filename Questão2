@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Questao02 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+        
+        String nome;
+    
+        System.out.println("Informe seu nome: ");
+        nome = scanner.nextLine();
+        
+        System.out.println(nome + " jÃ¡ sabe progamar!!! ");
+    }
+}
