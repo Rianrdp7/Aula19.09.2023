@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Questao03 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+        
+         int numero;
+    
+        System.out.println("Informe um nÃºmero: ");
+        numero = scanner.nextInt();
+        
+        System.out.println(+ numero);
+    }
+}
