@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Questao05 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+        
+        int n1;
+        int n2;
+        int soma;
+        int subtraÃ§ao;
+        
+        System.out.println("Informe o primeiro nÃºmero: ");
+        n1 = scanner.nextInt();
+        
+        System.out.println("Informe o segundo nÃºmero: ");
+        n2 = scanner.nextInt();
+        
+        soma = n1 + n2;
+        subtraÃ§ao = n1 - n2;
+        
+        System.out.println("O resultado da soma Ã©: " + soma);
+        System.out.println("O resultado da diferenÃ§a Ã©: " + subtraÃ§ao);
+        
+    }
+}
