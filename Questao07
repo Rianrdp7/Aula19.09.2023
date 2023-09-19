@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Questao07 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+    
+        int largura;
+        int comprimento;
+        float perimetro;
+        float area;
+        double iptu;
+        
+        System.out.print("Informe a largura do terro: ");
+        largura = scanner.nextInt();
+        
+        System.out.print("Informe o comprimento do terro: ");
+        comprimento = scanner.nextInt();
+        
+        perimetro = (comprimento + largura + comprimento + largura);
+        area = (comprimento * largura);
+        iptu = area * 0.29;
+        
+        System.out.println("Vai ser nescessario " + perimetro + " metros de muro para cercar o terreno");
+        
+        System.out.println("A área desse terreno é de " + area + " metros");
+        
+         System.out.println("E o IPTU desse terreno vai custa R$" + iptu);
+        
+    }
+}
