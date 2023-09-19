@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Questao06 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+        
+        int perimetro;
+        int area;
+        int numero;
+        
+        System.out.println("Informe um valor que corresponde a apenas um lado de um quadrado: ");
+        numero = scanner.nextInt();
+        
+        area = (numero*numero);
+        perimetro = (numero + numero + numero + numero);
+        
+        System.out.println("A Ã¡rea do quadrado Ã©: " + area);
+        System.out.println("O perÃ­metro do quadrado Ã©: " + perimetro);        
+    }
+}
+        
